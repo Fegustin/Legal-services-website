@@ -1,0 +1,37 @@
+@mixin headerContact {
+    color: #cbcacb;
+    letter-spacing: 0.25px;
+    line-height: 45px;
+    position: relative;
+}
+@mixin defaultBtn {
+    color: #fff;
+    letter-spacing: .25px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: $roboto;
+    padding: 7px 29px 7px 23px;
+    border: 1px solid #ffc222;
+    border-right-width: 20px;
+}
+@mixin bgMig{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@mixin line{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffc222;
+    left: 0;
+    top: 11px;
+}
+@mixin input {
+    margin-bottom: 8px;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0 10px;
+}
